@@ -183,6 +183,12 @@ h2, h3{ /*Estoy centrando todos los h2 y h3 de la web*/
     width: 100%;
 }
 
+@media (max-width: 480px){
+    .recarga h2{
+        font-size: 1.5rem;
+    }
+}
+
 @media (min-width: 768px){
 .servicios{
     display: grid;
