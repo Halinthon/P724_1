@@ -178,14 +178,30 @@ h2, h3{ /*Estoy centrando todos los h2 y h3 de la web*/
 }   
 
 .encabezado{
-    background-color: rgba(255,255,255,50%);
+    background-color: rgba(255,255,255,90%); /*Fondo de encabezado con menú*/
     position: fixed;
     width: 100%;
 }
 
-@media (max-width: 480px){
+/* para pantallas pequeñas*/
+@media (max-width: 480px){ /*Para pantalla inferiores a 480px aplique...*/
     .recarga h2{
-        font-size: 1.5rem;
+        font-size: 2rem;
+        margin-top: 2rem; /* Margen superior de la frase de enganche*/
+    }
+
+    .btn-open-popup{
+        margin-top: 4.5rem; /*Distancia del botón al menú */
+    }
+
+    .formulario{
+        margin-top: 0.2rem; /*Distancia del formulario al botón*/
+    }
+
+    .logo2{ /*Dimensiones del logo*/
+        width: 2rem;
+        height: 4rem;
+        margin-right: 0.2rem;
     }
 }
 
@@ -236,8 +252,9 @@ h2, h3{ /*Estoy centrando todos los h2 y h3 de la web*/
 }
 .capitulo-body{
     position: absolute;
-    background-color: rgba(0, 0, 0, 15%);
+    background-color: rgba(0, 0, 0, 10%);
     width: 100%; /* Amplio el ancho del body JHSG mayo 31*/
+    
     /*height: 100%;*/
     padding: 0px; /*estaba antes en 15 1 de junio*/
 }
